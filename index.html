@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers in Data Science</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <!-- EmailJS for email functionality -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>🌟 Careers in Data Science 🌟</h1>
+      <p>Unlock your potential in one of the most promising fields of the 21st century.</p>
+      <button onclick="scrollToSection('overview')">Explore Now</button>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="navbar">
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#career-paths">Career Paths</a></li>
+      <li><a href="#skills">Key Skills</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Overview Section -->
+  <section id="overview" class="section">
+    <h2>Why Choose Data Science?</h2>
+    <p>Data Science drives innovation in industries like healthcare, finance, education, and e-commerce. It's not just a job—it's an adventure into the future of technology!</p>
+    <div class="stats-container">
+      <div class="stat-box">
+        <h3>50%</h3>
+        <p>Increase in demand for Data Scientists since 2020.</p>
+      </div>
+      <div class="stat-box">
+        <h3>$120,000</h3>
+        <p>Average annual salary for a Data Scientist in the US.</p>
+      </div>
+      <div class="stat-box">
+        <h3>100+</h3>
+        <p>Industries hiring data professionals worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Paths Section -->
+  <section id="career-paths" class="section">
+    <h2>Top Career Paths</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="the same photo which is in our ds book lol.jpg" alt="Data Analyst">
+        <h3>📊 Data Analyst</h3>
+        <p>Analyze data to generate actionable insights and support business decisions.</p>
+        <button onclick="learnMore('Data Analyst')">Learn More</button>
+      </div>
+      <div class="card">
+        <img src="funny photo.jpg" alt="ML Engineer">
+        <h3>🤖 Machine Learning Engineer</h3>
+        <p>Design algorithms and predictive models to enhance automation.</p>
+        <button onclick="learnMore('Machine Learning Engineer')">Learn More</button>
+      </div>
+      <div class="card">
+        <img src="i cant find the difference between this and other photo.jpg" alt="Data Scientist">
+        <h3>🔬 Data Scientist</h3>
+        <p>Work on extracting meaningful insights and building models using large datasets.</p>
+        <button onclick="learnMore('Data Scientist')">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Key Skills in Data Science</h2>
+    <p>Data Science requires a strong foundation in programming, statistics, and critical thinking. Key skills include:</p>
+    <ul>
+      <li>🔢 Programming (Python, R)</li>
+      <li>📊 Data Visualization (Tableau, PowerBI)</li>
+      <li>🔍 Statistical Analysis</li>
+      <li>🧠 Machine Learning Algorithms</li>
+    </ul>
+    <p>Mastering these skills can open doors to various roles in the Data Science field.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Get in Touch</h2>
+    <p>If you have any questions or want to learn more about data science careers, feel free to reach out!</p>
+    <form id="contactForm">
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <label for="message">Your Message:</label>
+      <textarea id="message" placeholder="Your message here..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>🌐 Careers in Data Science | 2024</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
