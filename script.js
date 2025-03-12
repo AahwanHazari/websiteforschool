@@ -4,9 +4,11 @@ function scrollToSection(sectionId) {
 }
 
 // Handle "Learn More" button for career paths
+// This can go anywhere in your scripts.js file
 function learnMore(career) {
     window.location.href = `career-details.html?role=${encodeURIComponent(career)}`;
 }
+
 
 // Initialize EmailJS
 emailjs.init("your_emailjs_user_id"); // Add your EmailJS User ID here
@@ -33,3 +35,5 @@ document.getElementById("contactForm").addEventListener("submit", function (even
         alert("Oops, something went wrong. Please try again.");
       });
 });
+
+
