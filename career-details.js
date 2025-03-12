@@ -1,7 +1,7 @@
 const careerData = {
     "Data Analyst": {
         description: "Data Analysts collect, clean, and analyze data to help businesses make informed decisions. They work with Excel, SQL, and Python.",
-        image: "data-analyst.jpg",
+        image: "datanalyst.jpg",
         resources: [
             { name: "Google Data Analytics Course", link: "https://www.coursera.org/professional-certificates/google-data-analytics" },
             { name: "SQL for Data Analysis", link: "https://mode.com/sql-tutorial/" }
@@ -9,7 +9,7 @@ const careerData = {
     },
     "Machine Learning Engineer": {
         description: "Machine Learning Engineers build AI models using algorithms and deep learning techniques. They work with TensorFlow, PyTorch, and cloud computing.",
-        image: "ml-engineer.jpg",
+        image: "mlengineer.jpg",
         resources: [
             { name: "Machine Learning by Andrew Ng", link: "https://www.coursera.org/learn/machine-learning" },
             { name: "Deep Learning Specialization", link: "https://www.coursera.org/specializations/deep-learning" }
@@ -17,7 +17,7 @@ const careerData = {
     },
     "Data Scientist": {
         description: "Data Scientists analyze complex datasets, build predictive models, and drive data-driven decisions using statistics and AI.",
-        image: "data-scientist.jpg",
+        image: "datascienct.jpg",
         resources: [
             { name: "Python for Data Science", link: "https://www.datacamp.com/courses/intro-to-python-for-data-science" },
             { name: "Data Science Specialization", link: "https://www.coursera.org/specializations/jhu-data-science" }
