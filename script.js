@@ -4,10 +4,10 @@ function scrollToSection(sectionId) {
   }
   
   // Handle "Learn More" button for career paths
-  function learnMore(career) {
-    alert(`Learn more about the ${career} role! Explore its responsibilities, growth prospects, and required skills.`);
-  }
-  
+function learnMore(career) {
+    window.location.href = `career-details.html?role=${encodeURIComponent(career)}`;
+}
+
   // Initialize EmailJS
   emailjs.init("your_emailjs_user_id"); // Add your EmailJS User ID here
   
